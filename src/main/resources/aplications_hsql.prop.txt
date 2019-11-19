@@ -1,0 +1,14 @@
+# To See H2 Console in Browser:
+# http://localhost:8080/h2-console
+# Enabling H2 Console
+# spring.h2.console.enabled=true
+
+jdbc.driver = org.hsqldb.jdbcDriver
+jdbc.url = jdbc:hsqldb:hsql://localhost/testdb
+jdbc.username = sa
+jdbc.password =
+hibernate.dialect = org.hibernate.dialect.HSQLDialect
+hibernate.show_sql = true
+hibernate.format_sql = true
+hibernate.hbm2ddl.auto = update
+#server.silent=false

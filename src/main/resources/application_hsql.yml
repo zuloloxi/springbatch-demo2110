@@ -1,0 +1,13 @@
+spring:
+  batch:
+    job:
+      enabled: false
+
+  datasource:
+    url: jdbc:hsqldb:hsql://localhost/testdb
+    username: sa
+    password:
+    driver-class-name: org.hsqldb.jdbcDriver
+ # h2:
+ #   console:
+ #     enabled: true

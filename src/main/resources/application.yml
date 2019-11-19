@@ -1,0 +1,14 @@
+spring:
+  batch:
+    job:
+      enabled: true
+    initialize-schema: always
+
+  datasource:
+    url: jdbc:postgresql://localhost/Bibliotheque
+    username: postgres
+    password: a1234
+    driver-class-name: org.postgresql.Driver
+  #h2:
+  #  console:
+  #    enabled: true
